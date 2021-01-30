@@ -1,0 +1,9 @@
+img {
+    width: 300px;
+    height: 300px;
+}
+
+img[title="JS"] {
+    width: 100px;
+    height: 100px;
+}

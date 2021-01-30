@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web Forms</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/webforms.css">
+</head>
+
+<body>
+    <form action="/" method="POST">
+        <div class="auth">
+            <h3>LOG IN</h3>
+            <div>EMAIL<br><br></div>
+            <input type="text" name="login" maxlength="100" placeholder="Email" size="30"><br><br>
+            <div>PASSWORD<br><br></div>
+            <input type="password" name="password" maxlength="100" placeholder="Password" size="30"><br><br>
+        </div>
+    </form>
+    <hr>
+    <form action="/" method="POST">
+        <h3>Shopping list</h3>
+        <input type="reset"><br><br>
+        <input type="checkbox" name="shoppingList" value="Apple"> Apple<br>
+        <input type="checkbox" name="shoppingList" value="Orange"> Orange<br>
+        <input type="checkbox" name="shoppingList" value="Mango"> Mango<br>
+        <input type="checkbox" name="shoppingList" value="Potato"> Potato<br>
+        <input type="checkbox" name="shoppingList" value="Onion"> Onion<br>
+        <input type="checkbox" name="shoppingList" value="Cucumber"> Cucumber<br>
+        <input type="checkbox" name="shoppingList" value="Milk>"> Milk<br><br>
+        <textarea placeholder="Comment"></textarea>
+    </form>
+    <hr>
+    <form action="/" method="POST"></form>
+    <h3>Choose favorite fruit</h3>
+    <input type="radio" name="favoriteFruit" value="Apple"> Apple<br>
+    <input type="radio" name="favoriteFruit" value="Orange"> Orange<br>
+    <input type="radio" name="favoriteFruit" value="Mango"> Mango<br>
+    <input type="radio" name="favoriteFruit" value="Grape"> Grape<br>
+    <input type="radio" name="favoriteFruit" value="Banana"> Banana<br><br>
+    </form>
+    <hr>
+    <form action="/" method="POST"></form>
+    <h3>Choose favorite programming language</h3>
+    <select size="1">
+        <option value="Java">Java</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="C++">C++</option>
+    </select><br><br>
+    <input type="submit" name="submit" value="Accept">
+    </form>
+    <hr>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

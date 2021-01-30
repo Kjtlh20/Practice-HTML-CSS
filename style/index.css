@@ -1,0 +1,98 @@
+a[href="webforms.html"] {
+    color: red;
+}
+
+a[href="images.html"] {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    font-size: 20px;
+    color: red;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: grey;
+}
+
+p.bigLetter:first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+p.bigLetter::first-line {
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: red;
+}
+
+.bfrAftr:before {
+    content: "Manga "
+}
+
+.bfrAftr:after {
+    content: "Manga "
+}
+
+.bfrAftr::selection {
+    background-color: red;
+}
+
+body {
+    /*margin-left: 15pt;
+    padding: 30px 30px 30px 30px;*/
+    margin: 0px 30px 30px 30px;
+}
+
+.rightimg {
+    float: right;
+    margin: 0pt 10pt 0pt 15pt;
+    text-align: right;
+}
+
+.brd {
+    border: 1px solid black;
+    border-color: grey;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    border-color: grey;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+#margBottom {
+    margin-bottom: 3pt;
+}
+
+.italicp {
+    font-style: italic;
+}
+
+#italicdiv {
+    font-style: italic;
+}
+
+#italicdiv {
+    font-style: italic;
+}
+
+#bolddiv {
+    font-weight: bold;
+}

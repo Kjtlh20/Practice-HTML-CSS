@@ -1,0 +1,29 @@
+body {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rightimg {
+    float: right;
+    margin: 0pt 10px 0pt 15px;
+}
+
+p {
+    font-family: "Kurale", Arial, Helvetica, sans-serif;
+}
+
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#logo {
+    border: 2px solid green;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0 0 0 20px;
+    background-color: lightgrey;
+}
